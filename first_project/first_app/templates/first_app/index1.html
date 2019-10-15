@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="{% static "css/style.css" %}">
+    <title>First App</title>
+  </head>
+  <body>
+    <div class="container">
+
+     <input type="submit" value="click me to transcribe" class="btn btn-outline-secondary my-5"><br><br><br>
+
+     <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Audio Name given by andriod app</th>
+            <th>Transcribed text</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>SR_3646876987</td>
+            <td>Urdu Key Board</td>
+            <td><a href="#" class="btn btn-outline-info">View audio</a></td>
+          </tr>
+        </tbody>
+      </table>
+
+
+
+</div>
+  </body>
+</html>

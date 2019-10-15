@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="{% static "css/style.css" %}">
+      <style>
+      .btn-outline-secondary{
+        border-radius: 50% !important;
+      }
+      </style>
+    <title>First App</title>
+  </head>
+  <body>
+    <div class="container">
+
+     <h6 type="submit" value="click me to transcribe" class=" my-5">Listen</h6>
+     <p type="submit" value="click me to transcribe" class="btn btn-outline-secondary my-5 text-center">Click<i class="fas fa-microphone"></i> then read the sentence aloud</p>
+    <button type="button" name="button" class="btn btn-outline-secondary text-center"><i class="fas fa-microphone"></i></button>
+
+
+
+</div>
+  </body>
+</html>
